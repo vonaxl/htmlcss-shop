@@ -5,7 +5,6 @@
 .itemrow{
   display: inline-block;
   position: relative;
-  background-color: lightgray;
   height: 300px;
   width: 200px;
 }
@@ -17,8 +16,12 @@
   right: 0;
 }
 
+.itemrow:nth-child(2) .sconto{
+  background-color: red;
+}
+
 img{
   display: relative;
-  height: 95%;
-  width: 95%;
+  height: 100%;
+  width: 100%;
 }
