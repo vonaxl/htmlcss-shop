@@ -1,0 +1,17 @@
+.contain{
+  text-align: center;
+}
+
+.itemrow{
+  display: inline-block;
+  position: relative;
+  background-color: lightgray;
+  height: 300px;
+  width: 200px;
+}
+
+img{
+  display: relative;
+  height: 95%;
+  width: 95%;
+}
