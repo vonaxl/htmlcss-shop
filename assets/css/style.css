@@ -10,6 +10,7 @@
 }
 
 .cuore{
+  display: none;
   color: red;
   font-size: 30px;
   position: absolute;
@@ -17,6 +18,9 @@
   left: 45%;
 }
 
+.itemrow:hover .cuore{
+  display: block
+}
 .sconto{
   background-color: green;
   position: absolute;
