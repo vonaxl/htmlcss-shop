@@ -8,6 +8,7 @@
   height: 300px;
   width: 200px;
   margin-bottom: 20px;
+  cursor: pointer;
 }
 
 .cuore{
@@ -27,6 +28,7 @@
   position: absolute;
   top: 0;
   right: 0;
+  z-index: 1;
 }
 
 .itemrow:nth-child(2) .sconto{
